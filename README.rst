@@ -28,6 +28,10 @@ Test::
 
     $ py.test tests.py
 
+Export to supervisord.conf::
+
+    $ foreman export supervisord ./
+
 Rereferences:
 
 1. `http://phantomjs.org/ <http://phantomjs.org/>`_
