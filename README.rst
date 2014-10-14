@@ -7,11 +7,14 @@ Using:
 
 1. `foreman` for process manage.(both development and product env)
 2. `Procfile` config for foreman
+3. `selenium` for testing web app
 
 Init Env::
 
     $ gem install foreman
     $ npm install -g phontomjs
+    $ cp .env.sample .env
+    $ vim .env
 
 Run in development Env::
 
@@ -20,6 +23,10 @@ Run in development Env::
 Run in product Env::
 
     $ foreman start
+
+Test::
+
+    $ py.test tests.py
 
 Rereferences:
 
